@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+header{
+    background-image:url(./images/hero_bg.jpg.webp);
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+
+.box{
+    position: absolute;
+    right:5%;
+    bottom:15%;
+}
+.box span{
+    font-weight: bold;
+    font-size:50px;
+    color: rgb(143, 125, 26);
+}
+.box h1{
+    font-size:50px;
+ 
+}
+.box p{
+    font-size:20px;
+    font-weight: bold;
+ 
+}
+section{
+    color: white;
+}
+ span{
+    color: rgb(143, 125, 26);
+    font-weight: bold;
+    display: inline-block;
+    font-weight: bold
+
+}
+.btn-btn-outline{
+    background-color: rgb(143, 125, 26);
+    color: white;
+    outline: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+}
+.btn-btn-outline:hover{
+    background-color: black;
+    color: azure;
+}
+.col-md-3{
+    background-color: white;
+    color: black;
+    margin: 3%;
+    padding: 3%;
+  border-radius: 5%;
+}
+.hello2{
+    width: 100%;
+    height: 60vh;
+    /* opacity: .5; */
+    border-radius: 15px;
+    background-image: url(./images/hero_bg.jpg.webp);
+    background-origin: border-box;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#hello1 {
+    /* opacity: .5; */
+    
+    color: black;
+    margin-right: 2%;
+}
+li{
+    list-style-type: none;
+}
